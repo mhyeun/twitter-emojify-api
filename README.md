@@ -24,7 +24,7 @@ Run the following commands to create a virtual environment called 'venv':
 
 ```sh
 $ python -m venv venv
-$ venv\\Scripts\\activate.bat
+$ venv\Scripts\activate.bat
 ```
 
 _You should see (venv) at the left of the shell prompt if done correctly._
