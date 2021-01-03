@@ -20,7 +20,20 @@ Prior to starting, ensure you are on `Python3` and that you have `pip` installed
 
 ##### For Windows
 
-Jay please add a section here once you figure it out.
+Run the following commands to create a virtual environment called 'venv':
+
+```sh
+$ python -m venv venv
+$ venv\Scripts\activate.bat
+```
+
+_You should see (venv) at the left of the shell prompt if done correctly._
+
+To stop the virtual environment, simply run:
+
+```sh
+$ deactivate
+```
 
 ##### For Mac
 
