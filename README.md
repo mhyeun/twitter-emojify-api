@@ -3,6 +3,7 @@
 This app is the API for the Twitter Emojify Bot. This app performs the pulling of tweets via Twitter API and converts the tweet into a emoji clusterfuck — once converted, the API will send the transformed tweet to our Django app for display and storage.
 
 Emojify code provided by @Kevinpgalligan.
+
 ## Setting up locally
 
 #### Setting up local environment variables
@@ -48,8 +49,8 @@ To install the required packages for pre-commit hooks, run:
 $ pip install -r requirements.txt
 ```
 
-To install packages required for the emojifier, run:
+To install packages required for the emojifier, run in `src`:
 
 ```sh
-$ python3 src/setup.py install
+$ python3 setup.py install
 ```
