@@ -1,2 +1,4 @@
 pre-commit
 python-dotenv
+tweepy
+flask
