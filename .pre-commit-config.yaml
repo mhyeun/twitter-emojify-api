@@ -10,14 +10,3 @@ repos:
     rev: 19.3b0
     hooks:
       - id: black
-  - repo: https://github.com/pycqa/pylint
-    rev: pylint-2.6.0
-    hooks:
-      - id: pylint
-        args:
-          - --max-line-length=80
-          - -d duplicate-code
-          - --const-naming-style=UPPER_CASE
-          - --function-naming-style=snake_case
-          - --argument-naming-style=snake_case
-          - --variable-naming-style=snake_case
