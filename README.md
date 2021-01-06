@@ -91,8 +91,27 @@ To install the required packages for pre-commit hooks, run:
 $ pip install -r requirements.txt
 ```
 
+To use pre-commit hooks, run:
+```sh
+$ pre-commit install
+```
+
 To install packages required for the emojifier, run in `src`:
 
 ```sh
 $ python3 setup.py install
+```
+
+#### Running the app
+
+To run the Flask app on Mac, run:
+```sh
+$ export FLASK_APP=src/emojify_tweets.py
+$ flask run
+```
+
+On Windows, run:
+```sh
+$ set FLASK_APP=src/emojify_tweets.py
+$ flask run
 ```
